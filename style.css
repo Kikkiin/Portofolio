@@ -1,0 +1,683 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(images/backround.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    /* background-color: rgb(218, 218, 205); */
+    background-color: rgb(215, 215, 215); 
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/*Header*/
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(44, 44, 44);
+    /* color: white; */
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* color: rgba(255, 217, 0, 0.345); */
+    color:  rgba(212, 175, 55, 0.631);
+}
+
+.header-space {
+    padding-top: 60px;
+    background-color: rgb(44, 44, 44);
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* color: rgba(255, 217, 0, 0.345); */
+    margin: 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color:  rgba(212, 175, 55, 0.631);
+}
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* align-items: center;
+    text-align: center;
+    justify-content: space-between; 
+    background-color: rgb(231, 231, 224); */
+    background-color: rgb(44, 44, 44);
+    /* border-radius: 20px;  */
+}
+
+.half-colored {
+    color: white;
+}
+
+.bold-name {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.header-container {
+    /* text-align: center;
+    flex-grow: 1; */
+    position: absolute; /* Absolutt posisjonering for å plassere teksten over bildet */
+    top: 50%; /* Sentrerer teksten vertikalt i forhold til headeren */
+    left: 52%; /* Sentrerer teksten horisontalt i forhold til headeren */
+    transform: translate(-50%, -50%); /* Justerer sentreringen nøyaktig */
+   /* color: white;  Endre fargen slik at teksten er synlig på bildet */
+    z-index: 1; /* Sørger for at teksten er over bildet */
+    margin: 0;
+}
+
+.headerimage {
+    width: 250px;
+    height: auto;
+    /* margin-right: 50px; */
+}
+
+h1 {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 45px;
+}
+
+.p-header {
+    color: white;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+
+/*About*/
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px; 
+    /* border: 1px solid white; */
+    background-color: rgb(224, 224, 224);
+    /* max-width: 900px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    /* margin-top: 100px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-me-large {
+    display: block;
+    font-size: 150px;
+    position: absolute;
+    opacity: 0.1; 
+    top: 35%;
+    right: 45%;
+}
+
+.about-info p {
+    max-width: 600px;
+
+}
+
+.about-image {
+    width: 200px;
+    height: auto;
+    padding: 50px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.about-me-small {
+    display: none;
+}
+
+
+
+/*Work*/
+
+.h2-work {
+    /* margin-left: 80px;
+    margin-top: 100px; */
+    font-size: 150px;
+    position: absolute;
+    opacity: 0.1; 
+    margin-top: 30px;
+}
+
+.p-work {
+    color: black;
+    margin-top: 110px;
+    margin-bottom: 80px;
+    font-size: 24px;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin-bottom: 200px;
+    background-color: rgb(215, 215, 215); 
+}
+
+.project-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 100%;
+    /* max-width: 1290px;   */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    margin: 30px; 
+    margin-top: 100px; 
+    /* border-radius: 10px;  */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgb(231, 231, 224); */
+    /* background-color: rgb(218, 215, 215);  */
+    /* background-size: cover;
+    background-position: center; */
+}
+
+.text-container {
+    flex-grow: 1;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    padding: 5px;
+    /* border-radius: 2px; */
+    text-align: left;
+    /* margin: 8%;
+    padding: 20px; */
+    line-height: 1.5;
+}
+
+.card-image {
+    width: 100%; 
+    height: auto;
+    /* border-radius: 10px;  */
+    margin-right: 20px;
+}
+
+.project-card:hover {
+    transform: scale(1.06);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card p {
+    margin-bottom: 30px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    
+}
+
+.project-card a:hover {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+
+
+/*Contact*/
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+    padding-top: 60px;
+    position: relative;
+}
+
+.contact-h2, .contact-p, .contact-info {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.say-hello-large {
+    display: block;
+    font-size: 150px;
+    opacity: 0.1; 
+    z-index: 0;
+    top: 0;
+    margin-top: 10px;
+}
+
+.say-hello-small {
+    display: none;
+}
+
+.contact-p {
+    font-size: 24px;
+    z-index: 2;
+    top: 10%;
+}
+
+.contact-info {
+    top: 30%;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 200px;
+    z-index: 1;
+    padding: 40px;
+    width: 100%;
+    max-width: 500px; /* Begrenser maksimal bredde for å forbedre responsiviteten */
+}
+
+.input-field {
+    width: 100%; /* Full bredde for responsivitet */
+    max-width: 400px; /* Kontrollerer maksimal bredde */
+}
+
+.submit-button{}
+
+/* .submit-button {
+    text-align: center; /* Sentrerer teksten i knappen */
+
+
+/* Resten av din CSS */
+
+
+/* .contact-container {
+
+    background-color: rgb(224, 224, 224);
+    position: relative;
+    padding-top: 60px;
+
+}
+
+.contact-h2 {
+    font-size: 150px;
+    position: absolute;
+    opacity: 0.1; 
+    z-index: 0;
+    top: 0;
+    left: 30%;
+    margin-top: 10px;
+}
+
+.contact-p {
+    position: absolute;
+    font-size: 24px;
+    z-index: 2;
+    top: 10%;
+    left: 50%;
+}
+
+.contact-info {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    z-index: 1;
+    padding: 40px;
+    width: 100%;
+} */
+
+form label {
+    text-align: left;
+    width: 23rem;
+    margin-top: 20px;
+}
+
+.input-field {
+    width: 23rem;
+    height: 25px;
+    border: none;
+    background-color: #eae8e8;
+    border-radius: 5px;
+}
+
+#message {
+    height: 70px;
+}
+
+.submit-button {
+    /* width: 10%; */
+    border: 2px solid;
+    border-color: rgba(212, 175, 55, 1);
+    background-color: rgb(224, 224, 224);
+    padding: 10px 15px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit-button:hover {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+}
+
+
+/*Footer*/
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(44, 44, 44);
+}
+
+.footer {
+    display: flex;
+    color: white;
+    align-items: center;
+
+}
+
+.social-icon {
+    color: white;
+    padding: 15px;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+    /*Header*/
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .header-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /*About*/
+
+    .about-me-large {
+        display: none;
+    }
+
+    .about-me-small {
+        display: block;
+        font-size: 150px;
+        position: absolute;
+        opacity: 0.1;
+        width: 100%;
+        top: 38%;
+        right: -2%;
+    }
+
+
+    /*Work*/
+
+    .project-card {
+        flex-direction: column;
+    }
+
+    .card-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .project-card a {
+        padding: 10%;
+        margin-left: 50px;
+    }
+
+
+    /*Contact*/
+
+    .say-hello-large {
+        display: none;
+    }
+
+    .say-hello-small {
+        display: block;
+        position: absolute;
+        opacity: 0.1;
+        font-size: 150px;
+        text-align: center;
+        width: 100%;
+        z-index: 0;
+        top: 0;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /*Header*/ 
+
+    .navbar {
+        display: none;
+    }
+
+    .hamburger-menu  {
+        display: block;
+        position: absolute;
+        right: 50px;
+        z-index: 10;
+        
+    }
+
+    .hamburger-navbar {
+        position: absolute;
+        /* display: flex; */
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        /* width: 100px; */
+        border-radius: 2rem;
+        /* margin-right: 10px; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    }
+
+    .hamburger-navbar, #menu-checkbox {
+        display: none;
+    }
+
+    .hamburger-navbar ul {
+        list-style: none; 
+        padding: 0; 
+        margin: 0;
+    }
+
+    .hamburger-navbar li {
+        padding: 10px;
+        text-align: center;
+ 
+    }
+
+    .hamburger-navbar a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+
+    .hamburger-navbar a:hover {
+        font-weight: bolder;
+    }
+
+    #menu-checkbox:checked ~ .hamburger-navbar {
+        display: block;
+    }
+
+    #menu-checkbox:checked + label i.fa-bars {
+        display: none;
+    }
+    
+    #menu-checkbox:checked + label i.fa-times {
+        display: inline-block;
+    }
+    
+    #menu-checkbox + label i.fa-times {
+        display: none;
+    }    
+
+    .fa-solid {
+        /* padding: 10px; */
+        color: white;
+    }
+
+    .hamburger-menu label i {
+        cursor: pointer;
+    }
+
+    .header-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .p-header {
+        font-size: 15px;
+    }
+
+
+    /*About*/
+
+    .about-info {
+        flex-direction: column;
+        margin: 30px;
+    }
+/* 
+    .about-h2 .about-me-small{
+        font-size: 107px;
+        width: 100%;
+        top: 40%;
+        right: -6%;
+    } */
+
+
+    .about-me-small {
+        display: block;
+        font-size: 150px;
+        position: absolute;
+        opacity: 0.1;
+        width: 100%;
+        top: 38%;
+        right: -10%;
+    }
+
+    .about-me-large {
+        display: none;
+    }
+
+
+
+    /*Works*/
+
+    .h2-work {
+        font-size: 150px;
+    }
+
+    .project-card {
+        flex-direction: column;
+    }
+
+    .card-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .text-container {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .project-card a {
+        padding: 10%;
+        margin-left: 50px;
+    }
+
+
+    /*Contact*/
+
+    .contact-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .say-hello-small {
+        display: block;
+        position: absolute;
+        opacity: 0.1;
+        font-size: 150px;
+        text-align: center;
+        width: 100%;
+        z-index: 0;
+        top: 0;
+        margin-top: 10px;
+    }
+
+    .say-hello-large {
+        display: none;
+    }
+
+    
+    /*Footer*/ 
+    .social-icon {
+        margin-top: 10px;
+    }
+
+
+}
