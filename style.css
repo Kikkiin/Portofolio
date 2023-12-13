@@ -563,7 +563,7 @@ form label {
 
     .about-me-small {
         display: block;
-        font-size: 123px;
+        font-size: 120px;
         position: absolute;
         opacity: 0.1;
         width: 100%;
@@ -580,7 +580,7 @@ form label {
     /*Works*/
 
     .h2-work {
-        font-size: 123px;
+        font-size: 120px;
     }
 
     .project-card {
@@ -616,7 +616,7 @@ form label {
         display: block;
         position: absolute;
         opacity: 0.1;
-        font-size: 123px;
+        font-size: 120px;
         text-align: center;
         width: 100%;
         z-index: 0;
@@ -626,6 +626,10 @@ form label {
 
     .say-hello-large {
         display: none;
+    }
+
+    .contact-info {
+        margin-bottom: 30px;
     }
 
     .input-field {
