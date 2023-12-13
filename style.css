@@ -457,6 +457,10 @@ form label {
 
 @media screen and (max-width: 768px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     /*Header*/ 
 
     .navbar {
@@ -654,11 +658,6 @@ form label {
 
     .footer p {
         font-size: 10px;
-    }
-
-    html {
-        scroll-behavior: smooth;
-        overflow-x: hidden;
     }
 
 
