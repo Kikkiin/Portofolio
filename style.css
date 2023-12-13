@@ -617,7 +617,7 @@ form label {
 
     .about-me-small {
         display: block;
-        font-size: 150px;
+        font-size: 130px;
         position: absolute;
         opacity: 0.1;
         width: 100%;
@@ -634,7 +634,7 @@ form label {
     /*Works*/
 
     .h2-work {
-        font-size: 150px;
+        font-size: 130px;
     }
 
     .project-card {
@@ -670,7 +670,7 @@ form label {
         display: block;
         position: absolute;
         opacity: 0.1;
-        font-size: 150px;
+        font-size: 130px;
         text-align: center;
         width: 100%;
         z-index: 0;
@@ -682,6 +682,10 @@ form label {
         display: none;
     }
 
+    .input-field {
+        width: 20rem;
+    }
+
     .submit-button {
         color: black;
     }
@@ -690,11 +694,11 @@ form label {
     /*Footer*/ 
 
     .social-icon {
-        padding: 8px;
+        padding: 5px;
     }
 
     .footer p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 
