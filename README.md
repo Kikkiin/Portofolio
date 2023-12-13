@@ -1,9 +1,9 @@
 # Portofolio
 My portofolio 1
 
-Welcome to my portfolio! Here, you'll find a selection of projects I've developed during my studies at Noroff. These projects include an interactive website for a children's science museum, an online movie retail site, and a blog about Oslo.
+Welcome to my portfolio! Here, you'll find a selection of projects I've developed during my studies at Noroff. These projects so far include an interactive website for a children's science museum, an online movie retail site, and a blog about Oslo.
 
-![Image of me](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+<img src="images/imageofme.png" alt="Image of me">
 
 ## Projects
 
@@ -25,20 +25,20 @@ The websites are developed exclusively using:
 
 - HTML
 - CSS
-- [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
 - Javascript
+- [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
 
 ## Getting Started
 
 ### Installation
 
-To set up the projects locally, follow these steps:
+To set up my portofolio locally, please follow these steps:
 
 
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/Kikkiin/Semester-project-1
+   git clone https://github.com/Kikkiin/Portofolio
     ```
 
 2. Install the dependencies:
@@ -65,8 +65,9 @@ Contributions to the project are welcome. To contribute, please open a pull requ
 
 Feel free to contact me for questions, feedback, or collaborations:
 
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/kristin-kristiansen-034878261/)
 [My email](kristinkristiansen9@gmail.com)
+[My GitHub](https://github.com/Kikkiin)
 
 ## Acknowledgments
 
