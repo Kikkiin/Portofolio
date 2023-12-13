@@ -322,63 +322,9 @@ form {
     max-width: 400px; /* Kontrollerer maksimal bredde */
 }
 
-.submit-button{}
-
-/* .submit-button {
-    text-align: center; /* Sentrerer teksten i knappen */
-
-
-/* Resten av din CSS */
-
-
-/* .contact-container {
-
-    background-color: rgb(224, 224, 224);
-    position: relative;
-    padding-top: 60px;
-
-}
-
-.contact-h2 {
-    font-size: 150px;
-    position: absolute;
-    opacity: 0.1; 
-    z-index: 0;
-    top: 0;
-    left: 30%;
-    margin-top: 10px;
-}
-
-.contact-p {
-    position: absolute;
-    font-size: 24px;
-    z-index: 2;
-    top: 10%;
-    left: 50%;
-}
-
-.contact-info {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    font-size: 14px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 150px;
-    margin-top: 100px;
-    z-index: 1;
-    padding: 40px;
-    width: 100%;
-} */
-
 form label {
     text-align: left;
-    width: 23rem;
+    width: 20rem;
     margin-top: 20px;
 }
 
@@ -592,7 +538,7 @@ form label {
     }
 
     h1 {
-        font-size: 26px;
+        font-size: 25px;
     }
 
     .p-header {
@@ -617,7 +563,7 @@ form label {
 
     .about-me-small {
         display: block;
-        font-size: 130px;
+        font-size: 125px;
         position: absolute;
         opacity: 0.1;
         width: 100%;
@@ -634,7 +580,7 @@ form label {
     /*Works*/
 
     .h2-work {
-        font-size: 130px;
+        font-size: 125px;
     }
 
     .project-card {
@@ -670,7 +616,7 @@ form label {
         display: block;
         position: absolute;
         opacity: 0.1;
-        font-size: 130px;
+        font-size: 125px;
         text-align: center;
         width: 100%;
         z-index: 0;
