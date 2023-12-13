@@ -538,7 +538,7 @@ form label {
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .p-header {
@@ -645,6 +645,11 @@ form label {
 
     .footer p {
         font-size: 10px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
     }
 
 
