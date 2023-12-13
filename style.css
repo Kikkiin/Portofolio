@@ -324,7 +324,7 @@ form {
 
 form label {
     text-align: left;
-    width: 20rem;
+    width: 23rem;
     margin-top: 20px;
 }
 
@@ -631,6 +631,10 @@ form label {
 
     form {
         margin-top: 250px;
+    }
+
+    form label {
+        width: 20rem;
     }
 
     .input-field {
