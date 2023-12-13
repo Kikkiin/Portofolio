@@ -565,6 +565,7 @@ form label {
         display: block;
         font-size: 120px;
         position: absolute;
+        text-align: center;
         opacity: 0.1;
         width: 100%;
         top: 38%;
@@ -628,8 +629,8 @@ form label {
         display: none;
     }
 
-    .contact-info {
-        margin-bottom: 30px;
+    form {
+        margin-top: 250px;
     }
 
     .input-field {
