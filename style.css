@@ -591,6 +591,10 @@ form label {
         display: none;
     }
 
+    .contact-p {
+        top: 7%;
+    }
+
     form {
         margin-top: 250px;
     }
