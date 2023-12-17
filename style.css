@@ -352,7 +352,17 @@ form label {
     padding: 15px;
 }
 
+@media screen and (max-width: 900px) {
 
+    .card-image {
+        width: 100%;
+    }
+
+    .project-card {
+        flex-direction: column;
+    }
+
+}
 
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
