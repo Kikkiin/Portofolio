@@ -1,135 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Home page</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,900&display=swap"
+      rel="stylesheet"
+    />
     <script defer src="js/contact.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header-top">
-            <div class="name">Kristin</div>
-            <div>
-                <nav class="navbar">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </nav>
-            </div>
-            <div class="hamburger-menu">
-                <input type="checkbox" id="menu-checkbox">
-                <label for="menu-checkbox"><i class="fa-solid fa-bars"></i><i class="fa-solid fa-times"></i></label>
-                <nav class="hamburger-navbar">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="header-top">
+        <div class="name">Kristin</div>
+        <div>
+          <nav class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </nav>
         </div>
-        <div class="header-space"></div>
-        <div class="header">
-            <div class="header-container" id="home">
-                <h1>Hello, <span class="half-colored">I'm a front-end</span> developer.</h1>
-                <p class="p-header">My name is <span class="bold-name">Kristin</span>, and this is my portofolio.</p>                
-            </div>
-            <img src="images/imageofme.png" alt="image of me" class="headerimage">
+        <div class="hamburger-menu">
+          <input type="checkbox" id="menu-checkbox" />
+          <label for="menu-checkbox"
+            ><i class="fa-solid fa-bars"></i><i class="fa-solid fa-times"></i
+          ></label>
+          <nav class="hamburger-navbar">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
+      <div class="header-space"></div>
+      <div class="header">
+        <div class="header-container" id="home">
+          <h1>
+            Hello, <span class="half-colored">I'm a UX/UI</span> designer.
+          </h1>
+          <p class="p-header">
+            My name is <span class="bold-name">Kristin</span>, and this is my
+            portofolio.
+          </p>
+        </div>
+        <img src="images/imageofme.png" alt="image of me" class="headerimage" />
+      </div>
     </header>
     <main>
+      <div class="about-info" id="about">
+        <h2 class="about-h2 about-me-large">About me</h2>
+        <h2 class="about-h2 about-me-small">About</h2>
+        <p>
+          👋 A UX/UI girl with a background in front-end development. I enjoy
+          designing intuitive and user-friendly interfaces and exploring how
+          small design choices impact the user experience. <br /><br />
+          🌱 Educated at Noroff, my main tools are Figma, HTML, and CSS, and I
+          have experience with JavaScript.
+        </p>
+        <img
+          src="images/imageofme2.png"
+          alt="image of me"
+          class="about-image"
+        />
+      </div>
 
-        <div class="about-info" id="about">
-            <h2 class="about-h2 about-me-large">About me</h2>
-            <h2 class="about-h2 about-me-small">About</h2>
-            <p>👋 I am an aspiring front-end developer based in Oslo, passionate about creating intuitive and appealing web applications. After a career in nursing, I found my calling in the world of technology, where I combine my caring nature with a love for coding.
-            <br><br>
-            🌱 Educated at Noroff, I am dedicated to continuous learning and improvement. I am fascinated by interaction design and user experience, striving to create solutions that are visually appealing and easy to use. I’m currently learning about css, html and javascript.
+      <div class="projects-container" id="work">
+        <h2 class="h2-work">Works</h2>
+        <p class="p-work">My recent projects</p>
+
+        <div class="project-card project1">
+          <img
+            src="images/osloblog.png"
+            alt="image of project osloblog"
+            class="card-image"
+          />
+
+          <div class="text-container">
+            <h2>Osloblog</h2>
+            <p>
+              An engaging and informative blog dedicated to everything about
+              Oslo, from hidden gems to well-known attractions. Developed using
+              HTML, CSS, and JavaScript, this project features dynamic content
+              fetched from an external API created with WordPress.
+              <strong
+                >Note: The API is currently inactive, but the fetching logic is
+                implemented.</strong
+              >
             </p>
-            <img src="images/imageofme2.png" alt="image of me" class="about-image">
+            <a href="https://benevolent-tanuki-dcf5b8.netlify.app/">Explore</a>
+            <a href="https://github.com/Kikkiin/Project-exam-1">Github</a>
+          </div>
         </div>
 
-        <div class="projects-container" id="work">
-            <h2 class="h2-work">Works</h2>
-            <p class="p-work">My recent projects</p>
+        <div class="project-card project2">
+          <img
+            src="images/squareeyes.png"
+            alt="image of project square eyes"
+            class="card-image"
+          />
 
-        
-            <div class="project-card project1">
-                <img src="images/osloblog.png" alt="image of project osloblog" class="card-image">
-
-                <div class="text-container">
-                    <h2>Osloblog</h2>
-                    <p>An engaging and informative blog dedicated to everything about Oslo, from hidden gems to well-known attractions. Developed using HTML, CSS, and JavaScript, this project features dynamic content fetched from an external API created with WordPress.</p>
-                    <a href="https://benevolent-tanuki-dcf5b8.netlify.app/">Explore</a>
-                    <a href="https://github.com/Kikkiin/Project-exam-1">Github</a>
-                </div>
-            </div>
-
-            <div class="project-card project2">
-                <img src="images/squareeyes.png" alt="image of project square eyes" class="card-image">
-
-                <div class="text-container">
-                    <h2>Square Eyes</h2>
-                    <p>An site for rental and purchase movies. Offers everything from the latest blockbuster films to smaller quality films and series. Eveloped using HTML, CSS, and JavaScript, this project features dynamic content fetched from an external API created with WordPress.</p>
-                    <a href="https://effortless-chimera-019bbe.netlify.app/">Explore</a>
-                    <a href="https://github.com/Kikkiin/Square-eyes-CA-">Github</a>
-                </div>
-            </div>
-
-            <div class="project-card project3">
-                <img src="images/communityscience.png" alt="image of project community science page" class="card-image">
-
-                <div class="text-container">
-                    <h2>Community science museum</h2>
-                    <p>An interactive and educational website dedicated to sparking children's interest in science, biology, dinosaurs, and more. This site is crafted with HTML and CSS, showcasing a clean and responsive design.</p>
-                    <a href="https://bejewelled-pastelito-805a26.netlify.app/">Explore</a>
-                    <a href="https://github.com/Kikkiin/Semester-project-1">Github</a>
-                </div>
-            </div> 
+          <div class="text-container">
+            <h2>Square Eyes</h2>
+            <p>
+              An site for rental and purchase movies. Offers everything from the
+              latest blockbuster films to smaller quality films and series.
+              Eveloped using HTML, CSS, and JavaScript, this project features
+              dynamic content fetched from an external API created with
+              WordPress.
+              <strong
+                >Note: The API is currently inactive, but the fetching
+                functionality remains in place.</strong
+              >
+            </p>
+            <a href="https://effortless-chimera-019bbe.netlify.app/">Explore</a>
+            <a href="https://github.com/Kikkiin/Square-eyes-CA-">Github</a>
+          </div>
         </div>
-        
-        <div class="contact-container" id="contact">
-            <h2 class="contact-h2 say-hello-large">Say Hello</h2>
-            <h2 class="contact-h2 say-hello-small">Hello</h2>
-            <p class="contact-p">Contact me</p>
-            <p class="contact-info">📫  kristinkristiansen9@gmail.com</p>
 
-            <form name="contactForm" onsubmit="return validateForm()" method="post" novalidate>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" class="input-field"><br>
-                <span id="nameError" class="error"></span>
-    
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" class="input-field"><br>
-                <span id="emailError" class="error"></span>
-    
-                <label for="message">Message</label>
-                <textarea id="message" name="message" class="input-field"></textarea><br>
-                <span id="messageError" class="error"></span>
-                
-                <input type="submit" value="submit" class="submit-button">
-            </form>
+        <div class="project-card project3">
+          <img
+            src="images/communityscience.png"
+            alt="image of project community science page"
+            class="card-image"
+          />
+
+          <div class="text-container">
+            <h2>Community science museum</h2>
+            <p>
+              An interactive and educational website dedicated to sparking
+              children's interest in science, biology, dinosaurs, and more. This
+              site is crafted with HTML and CSS, showcasing a clean and
+              responsive design.
+            </p>
+            <a href="https://bejewelled-pastelito-805a26.netlify.app/"
+              >Explore</a
+            >
+            <a href="https://github.com/Kikkiin/Semester-project-1">Github</a>
+          </div>
         </div>
-        
+
+        <div class="project-card project4">
+          <img
+            src="images/infinitymarket.png"
+            alt="image of project auction site"
+            class="card-image"
+          />
+
+          <div class="text-container">
+            <h2>Infinity market</h2>
+            <p>
+              An auction site, focusing on user-friendliness and structured
+              information. Users can create and post their own listings,
+              including uploading images or adding image URLs to be displayed on
+              the site.
+            </p>
+            <a href="https://semesterproject2auction.netlify.app/">Explore</a>
+            <a
+              href="https://github.com/Kikkiin/Semester-project-2-Auction-site-"
+              >Github</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card project5">
+          <img
+            src="images/ecoconnect.png"
+            alt="image of project social media site"
+            class="card-image"
+          />
+
+          <div class="text-container">
+            <h2>Ecoconnect</h2>
+            <p>
+              The purpose of this project was to apply knowledge of Bootstrap
+              and SASS in building a responsive front end for a social media
+              application.
+            </p>
+            <a href="https://aquamarine-boba-75a375.netlify.app/">Explore</a>
+            <a href="https://github.com/Kikkiin/css-frameworks-ca">Github</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-container" id="contact">
+        <h2 class="contact-h2 say-hello-large">Say Hello</h2>
+        <h2 class="contact-h2 say-hello-small">Hello</h2>
+        <p class="contact-p">Contact me</p>
+        <p class="contact-info">📫 kristinkristiansen9@gmail.com</p>
+
+        <form
+          name="contactForm"
+          onsubmit="return validateForm()"
+          method="post"
+          novalidate
+        >
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" class="input-field" /><br />
+          <span id="nameError" class="error"></span>
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="input-field"
+          /><br />
+          <span id="emailError" class="error"></span>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="input-field"></textarea
+          ><br />
+          <span id="messageError" class="error"></span>
+
+          <input type="submit" value="submit" class="submit-button" />
+        </form>
+      </div>
     </main>
     <footer class="footer-container">
-        <div class="footer">
-            <p>Copyright © Kristins portofolio. All rights reserved.</p>
-        </div>
-        <div class="footer">
-            <span class="social-icon"><i class="fa-brands fa-facebook"></i></span>
-            <span class="social-icon"><i class="fa-brands fa-instagram"></i></span>
-            <span class="social-icon"><i class="fa-brands fa-tiktok"></i></span>
-        </div>
+      <div class="footer">
+        <p>Copyright © Kristins portofolio. All rights reserved.</p>
+      </div>
+      <div class="footer">
+        <span class="social-icon"><i class="fa-brands fa-facebook"></i></span>
+        <span class="social-icon"><i class="fa-brands fa-instagram"></i></span>
+        <span class="social-icon"><i class="fa-brands fa-tiktok"></i></span>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
